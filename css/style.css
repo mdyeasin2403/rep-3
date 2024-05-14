@@ -1,0 +1,242 @@
+/* common start */
+ body{
+ 	margin: 0;
+ 	padding: 0;
+ }
+/* common end */
+/* header start */
+header{
+	border-bottom: 2px solid #eef0f3;
+	padding: 9px 0px;
+}
+.container {
+	width: 90%;
+	margin: 0 auto;
+  overflow: hidden;
+}
+
+.logo { 
+  width: 10%;
+  float: left;
+  padding-top: 13px;
+}
+.logo img{
+	width: 100%;
+}
+.menu {
+  width: 48%;
+  float: right;
+	margin-top: 14px
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #0f2656;
+	text-decoration: none;
+	display: inline-block;
+	margin: 0px 20px;	
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+/* header end */
+/* banner start */
+.banner{
+  padding: 60px 0;
+}
+.container2{
+  width: 55%;
+  margin: 0px auto;
+}
+.b_content{
+	text-align: center;
+	font-family: sans-serif;
+}
+.b_content h1{
+	font-size: 45px;
+	font-weight: 700;
+	color: #0f2656;
+	margin: 0;
+}
+.b_content h2{
+	margin: 10px 0;
+	font-size: 45px;
+	font-weight: 700;
+	color: #008aff;
+}
+.b_content p{
+	font-size: 16px;
+	font-weight: 400;
+	color: #0f2656;
+	line-height: 23px;
+	word-spacing: 1px;
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+.b_image{
+	width: 75%;
+	margin: 0 auto;
+}
+.b_image img{
+	width: 100%;
+}
+
+/* banner end */
+/* success start */
+.success{
+   padding: 60px 0;
+}
+.s_content{
+	overflow: hidden;
+	font-family: sans-serif;
+}
+.s_left{
+	width: 40%;
+	float: left;
+	text-align: right;
+	padding: 0 10px 0 20px;
+}
+.s_left h2{
+	font-size: 40px;
+	font-weight: 700;
+	color: #f15767;
+	margin: 0 0 10px;
+}
+.s_left p{
+	font-size: 14px;
+	font-weight: 400;
+	color: #0f2656;
+	margin: 0;
+	line-height: 25px;
+	word-spacing: 1px;
+}
+.s_right{
+	width: 50%;
+	float: right;
+	padding: 0 20px 0 10px;
+}
+.s_right h1{
+	font-size: 41px;
+	font-weight: 700;
+	color: #0f2656;
+	line-height: 51px;
+	margin: 0;
+}
+/* success end */
+/* feature start */
+.feature{}
+.f_content{
+  overflow: hidden;
+}
+.f_single{
+	width: 28%;
+	font-family: sans-serif;
+	color: #0F2656;
+  padding: 30px 24px 45px;
+  float: left;
+  margin-right: 25px;
+}
+.f_single:last-child{
+	margin-right: 0;
+}
+.pink{
+	background-color: #fdebed;
+}
+.green{
+	background-color: #ebf9f4;
+}
+.yellow{
+	background-color: #fff7eb;
+}
+.f_image{
+}
+.f_image img{
+  width: 100%;
+	}
+.f_single h2{
+ font-size: 22px;
+ font-weight: 700;
+ margin: 20px 0;
+}
+.f_single p{
+	font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+/* feature end */
+/* Layout design  start */
+.l-out{
+	text-align: center;
+    color: red;
+    font-size: 45px;
+}
+#r-color{
+	background-color: red;
+	height: 75px;
+}
+.wrapper{
+	overflow: hidden;
+}
+.blog{
+ background-color: blue;
+ width: 50%;
+ height: 100px;
+ float: left;
+}
+.contact{
+ background-color: green;
+ width: 50%;
+ height: 100px;
+ float: right;
+}
+.f-l{
+	float: left;
+	width: 25%;
+}
+.yello{
+ background-color: yellow;
+ height: 100px;
+}
+.pin-k{
+ background-color: pink;
+ height: 100px;
+}
+.black{
+ background-color: black;
+ height: 100px;
+}
+.brown{
+	background-color: brown;
+ height: 100px;
+}
+#o-color{
+ background-color: orange;
+ height: 75px;
+}
+/* Layout design end  */
+/* Elements start*/
+.box{
+	overflow: hidden;
+}
+.box1{
+ width: 49%;
+ float: left;
+background-color: burlywood;
+color: white;
+margin-right: 25px;
+}
+.box2{
+ width: 49%;
+ float: left;
+ background-color: burlywood;
+ color: white;
+}
+/* Elements end */
